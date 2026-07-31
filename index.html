@@ -1,0 +1,117 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="LHN 的个人学术主页与博客：研究动态、论文项目、学术经历、读书札记与写作记录。">
+    <title>LHN - Academic Homepage</title>
+    <link rel="stylesheet" href="assets/styles.css">
+  </head>
+  <body>
+    <header class="masthead" aria-label="站点导航">
+      <nav class="masthead-inner">
+        <a class="home-link" href="#about">Homepage</a>
+        <div class="nav-links" aria-label="主导航">
+          <a href="#news">News</a>
+          <a href="#experiences">Experiences</a>
+          <a href="#research-interests">Research Interests</a>
+          <a href="#honors">Honors</a>
+          <a href="#activities">Activities</a>
+          <a href="#publications">Publications</a>
+          <a href="#blog">Blog</a>
+        </div>
+      </nav>
+    </header>
+
+    <main class="page-shell">
+      <aside class="profile-sidebar" aria-label="个人信息">
+        <section class="profile-card">
+          <div class="avatar-placeholder" aria-hidden="true">LHN</div>
+          <h1 id="profile-name">LHN</h1>
+          <p class="profile-title">Researcher / Student</p>
+          <p class="profile-subtitle">Your Department, Your University</p>
+          <p class="profile-location">City, China</p>
+
+          <ul class="profile-links">
+            <li><a href="mailto:your.name@example.com">Email</a></li>
+            <li><a href="https://scholar.google.com/citations?user=1GXPr6kAAAAJ&amp;hl=zh-CN" target="_blank" rel="noreferrer">Google Scholar</a></li>
+            <li><a href="https://orcid.org/" target="_blank" rel="noreferrer">ORCID</a></li>
+            <li><a href="https://github.com/" target="_blank" rel="noreferrer">GitHub</a></li>
+            <li><a href="#" aria-disabled="true">CV</a></li>
+          </ul>
+        </section>
+
+        <figure class="research-figure">
+          <img src="assets/hero-academic.png" alt="书桌、论文和电脑组成的学术写作场景">
+          <figcaption>Research notes, writing, and reproducible workflows.</figcaption>
+        </figure>
+      </aside>
+
+      <article class="content" aria-labelledby="profile-name">
+        <section class="content-section" id="about">
+          <p class="anchor-label">Short Bio</p>
+          <p>
+            <strong>LHN</strong> is building a public academic homepage for research notes, reading records,
+            paper updates, teaching materials, and long-form reflections. This site is designed for GitHub Pages
+            and keeps the structure simple enough to maintain by editing a small data file.
+          </p>
+          <p>
+            Current interests include knowledge organization, text analysis, digital learning resources, and
+            open academic writing. Replace this paragraph with your formal biography, affiliation, advisor,
+            research group, and collaboration interests.
+          </p>
+        </section>
+
+        <section class="content-section" id="news">
+          <h2>News</h2>
+          <ul class="plain-list" id="news-list"></ul>
+        </section>
+
+        <section class="content-section" id="experiences">
+          <h2>Experiences</h2>
+          <ul class="timeline-list" id="experience-list"></ul>
+        </section>
+
+        <section class="content-section" id="research-interests">
+          <h2>Research Interests</h2>
+          <ul class="plain-list" id="interest-list"></ul>
+        </section>
+
+        <section class="content-section" id="honors">
+          <h2>Honors and Awards</h2>
+          <ul class="plain-list" id="honor-list"></ul>
+        </section>
+
+        <section class="content-section" id="activities">
+          <h2>Academic Activities</h2>
+          <ul class="plain-list" id="activity-list"></ul>
+        </section>
+
+        <section class="content-section" id="publications">
+          <h2>Publications</h2>
+          <ol class="publication-list" id="publication-list"></ol>
+        </section>
+
+        <section class="content-section" id="blog">
+          <div class="section-heading">
+            <h2>Academic Blog</h2>
+            <label class="search-box">
+              <span class="sr-only">搜索文章</span>
+              <input id="post-search" type="search" placeholder="搜索文章">
+            </label>
+          </div>
+          <div class="filter-row" id="filter-row" aria-label="文章分类"></div>
+          <div class="post-list" id="post-list"></div>
+        </section>
+      </article>
+    </main>
+
+    <footer class="site-footer">
+      <span id="footer-year"></span>
+      <span>Powered by GitHub Pages</span>
+    </footer>
+
+    <script src="assets/site-data.js"></script>
+    <script src="assets/app.js"></script>
+  </body>
+</html>
