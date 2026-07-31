@@ -2,79 +2,80 @@ window.AcademicBlogData = {
   news: [
     {
       date: "2026-07-31",
-      text: "个人学术博客主页上线，后续将持续更新研究笔记、论文进展与课程材料。",
-      link: "#blog"
+      text: "个人学术主页已根据简历与 Google Scholar 链接完成初步整理。",
+      link: "#about"
     },
     {
-      date: "2026-07-20",
-      text: "整理知识图谱与课程资源组织相关材料，计划形成一组公开笔记。",
-      link: "#research-interests"
+      date: "2024-09-01",
+      text: "进入大连理工大学软件工程方向继续攻读博士学位。",
+      link: "#experiences"
     },
     {
-      date: "2026-06-30",
-      text: "启动公开写作实验：用短札记录读书、复现实验和论文构思。",
-      link: "posts/public-writing-rhythm.html"
+      date: "2024-06-01",
+      text: "完成电子信息方向硕士阶段学习与科研训练。",
+      link: "#experiences"
     }
   ],
   experiences: [
     {
-      organization: "Your University",
-      role: "M.Sc. / Ph.D. Student, Department of XXX",
-      period: "2026 - Now"
+      organization: "Dalian University of Technology",
+      role: "Ph.D. Student, Software Engineering",
+      period: "2024.09 - 2028.06"
     },
     {
-      organization: "Your Research Group",
-      role: "Research Assistant, Academic Knowledge Organization Project",
-      period: "2025 - 2026"
+      organization: "Dalian University",
+      role: "Master Student, Electronic Information",
+      period: "2021.09 - 2024.06"
     },
     {
-      organization: "Your University",
-      role: "B.Sc., Major in XXX",
-      period: "2021 - 2025"
+      organization: "Harbin University of Science and Technology",
+      role: "B.Eng., Software Engineering",
+      period: "2017.09 - 2021.06"
     }
   ],
   interests: [
-    "Knowledge Organization: knowledge graphs, academic notes, citation networks, and reusable research workflows.",
-    "Text Analysis: corpus construction, natural language processing, annotation, and interpretable research pipelines.",
-    "Digital Learning: open course materials, learning analytics, educational technology, and classroom knowledge maps.",
-    "Academic Writing: reading notes, reproducible experiments, paper drafts, and public research diaries."
+    "Software Engineering: intelligent software systems, engineering practice, application development, and reproducible workflows.",
+    "Electronic Information: data-driven modeling, intelligent perception, and engineering-oriented research problems.",
+    "Computer Vision: object detection, visual understanding, and challenge-oriented model evaluation.",
+    "Academic Productivity: paper organization, experimental records, Google Scholar profile maintenance, and public academic writing."
   ],
   honors: [
-    "Outstanding Student Scholarship, Your University, 2026.",
-    "Excellent Course Project, Data Analysis and Visualization, 2025.",
-    "Undergraduate Research Training Program, 2024."
+    "Second-class scholarship, 2022.",
+    "First Prize, Object Detection Group, the 3rd International Challenge on Target Intelligence, 2023.",
+    "First Prize, Visual Target / Practice Group, the 3rd International Challenge on Target Intelligence, 2023."
   ],
   activities: [
-    "Member, Research Group Seminar on Knowledge Graphs and Open Education, 2026 - present.",
-    "Reviewer / Volunteer, Student Academic Forum, 2025.",
-    "Organizer, Reading Group on Academic Writing and Reproducible Research, 2025."
+    "Software application development project, 2020.07 - 2021.07.",
+    "Electronic information and software engineering research project, 2022.04 - 2023.04.",
+    "Computer vision and object detection challenge project, 2023.02 - 2023.06.",
+    "Ongoing research in software engineering and intelligent information processing, 2022 - present."
   ],
   publications: [
     {
-      authors: "LHN",
-      title: "A Knowledge Graph Approach to Academic Reading Notes",
-      venue: "Working Paper",
-      year: "2026",
+      authors: "Hongning Liu",
+      title: "Google Scholar Publication Profile",
+      venue: "Google Scholar",
+      year: "Updated",
       links: [
-        { label: "Notes", url: "posts/reading-notes-to-research-questions.html" }
+        { label: "Scholar", url: "https://scholar.google.com/citations?user=1GXPr6kAAAAJ&hl=zh-CN" }
       ]
     },
     {
-      authors: "LHN",
-      title: "Text Mining for Course Material Discovery",
-      venue: "Research Project",
-      year: "2025",
-      links: [
-        { label: "Project", url: "#research-interests" }
-      ]
-    },
-    {
-      authors: "LHN",
-      title: "Public Writing as Research Infrastructure",
-      venue: "Essay Series",
+      authors: "Hongning Liu",
+      title: "Academic Outputs Listed in CV: 6 works, including CCF-B and SCI publications",
+      venue: "CV Summary",
       year: "2024",
       links: [
-        { label: "Blog", url: "posts/public-writing-rhythm.html" }
+        { label: "Scholar", url: "https://scholar.google.com/citations?user=1GXPr6kAAAAJ&hl=zh-CN" }
+      ]
+    },
+    {
+      authors: "Hongning Liu",
+      title: "Research directions: software engineering, electronic information, computer vision, and object detection",
+      venue: "Research Summary",
+      year: "2024",
+      links: [
+        { label: "Interests", url: "#research-interests" }
       ]
     }
   ],
