@@ -23,7 +23,7 @@ window.AcademicBlogData = {
       period: "2024.09 - 2028.06"
     },
     {
-      organization: "Dalian University",
+      organization: "Dalian Minzu University",
       role: "Master Student, Electronic Information",
       period: "2021.09 - 2024.06"
     },
