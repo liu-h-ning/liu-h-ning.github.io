@@ -12,7 +12,6 @@
 - `assets/styles.css`: 页面样式与响应式布局
 - `assets/site-data.js`: 动态、经历、研究方向、荣誉、活动、论文和文章数据
 - `assets/app.js`: 列表渲染、文章搜索与分类筛选
-- `assets/hero-academic.png`: 本地学术场景图片
 - `posts/`: 独立文章页面
 
 ## 修改个人信息
@@ -49,7 +48,7 @@ git push -u origin main
 
 ## 后续扩展
 
-- 上传真实头像后，把 `index.html` 中的 `avatar-placeholder` 换成 `<img>`。
+- 当前头像使用 GitHub 头像外链；如需更换，编辑 `index.html` 中的 `avatar-image`。
 - 把 `publications` 的链接改成 PDF、DOI、Code 或项目主页。
 - 绑定个人域名时，在仓库根目录新增 `CNAME` 文件。
 - 如果需要 Markdown 写作流，可以后续迁移到 Jekyll、Hugo 或 Astro。
