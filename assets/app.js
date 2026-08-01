@@ -145,7 +145,7 @@
     });
   }
 
-  document.querySelector("#footer-year").textContent = `© ${new Date().getFullYear()} 刘洪宁`;
+  document.querySelector("#footer-year").textContent = `© ${new Date().getFullYear()} HongningLiu`;
   renderNews();
   renderExperiences();
   renderSimpleList("#interest-list", data.interests);
