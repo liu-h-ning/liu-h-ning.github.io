@@ -2,7 +2,7 @@
 
 这是一个适合 GitHub Pages 的个人学术主页与博客。当前风格参考 `https://www.shuo-yu.com/` 的学术主页类型：顶部锚点导航、左侧个人信息栏、右侧 Bio/News/Experiences/Publications/Blog 内容流。
 
-页面信息已根据刘洪宁简历和 Google Scholar 链接做初步整理；由于 PDF 文本抽取不完整，具体论文题目建议后续直接从 Google Scholar 或论文列表手动补全。
+页面信息已根据刘洪宁简历、Google Scholar 链接、DBLP 和 OpenAlex 做初步整理；论文列表保留 Google Scholar 入口，当前逐篇引用数使用 OpenAlex 计数。
 
 项目不依赖构建工具，打开 `index.html` 即可预览。
 

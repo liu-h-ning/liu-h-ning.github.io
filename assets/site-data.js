@@ -52,30 +52,82 @@ window.AcademicBlogData = {
   ],
   publications: [
     {
-      authors: "Hongning Liu",
-      title: "Google Scholar Publication Profile",
-      venue: "Google Scholar",
-      year: "Updated",
+      authors: "Hongning Liu, Xianchao Zhang, Hui Sun, Linlin Zong, Wenxin Liang, and Xinyue Liu",
+      title: "Graph-Based Rotation-Robust Semantic Modeling for Oriented Object Detection in Remote Sensing Images",
+      venue: "ICMR 2026",
+      year: "2026",
+      citations: "0",
+      citationSource: "OpenAlex citations",
       links: [
+        { label: "DOI", url: "https://doi.org/10.1145/3805622.3810758" },
+        { label: "DBLP", url: "https://dblp.org/rec/conf/mir/LiuZSZLL26.html" },
         { label: "Scholar", url: "https://scholar.google.com/citations?user=1GXPr6kAAAAJ&hl=zh-CN" }
       ]
     },
     {
-      authors: "Hongning Liu",
-      title: "Academic Outputs Listed in CV: 6 works, including CCF-B and SCI publications",
-      venue: "CV Summary",
-      year: "2024",
+      authors: "Haiyan Lan, Shujun Li, Mingjie Xie, Xuanjia Zhao, Hongning Liu, Pengming Feng, Dongli Xu, Guangjun He, and Jian Guan",
+      title: "Band Prompting Aided SAR and Multi-Spectral Data Fusion Framework for Local Climate Zone Classification",
+      venue: "ICASSP 2025",
+      year: "2025",
+      citations: "0",
+      citationSource: "OpenAlex citations",
       links: [
+        { label: "DOI", url: "https://doi.org/10.1109/ICASSP49660.2025.10889549" },
+        { label: "arXiv", url: "https://doi.org/10.48550/arXiv.2412.18235" },
+        { label: "DBLP", url: "https://dblp.org/rec/conf/icassp/LanLXZLFXH025.html" },
         { label: "Scholar", url: "https://scholar.google.com/citations?user=1GXPr6kAAAAJ&hl=zh-CN" }
       ]
     },
     {
-      authors: "Hongning Liu",
-      title: "Research directions: software engineering, electronic information, computer vision, and object detection",
-      venue: "Research Summary",
+      authors: "Di Wu, Hongning Liu, Jiawei Xu, and Fei Xie",
+      title: "Multi-scale feature extraction for energy-efficient object detection in remote sensing images",
+      venue: "IET Computer Vision, 18(8):1223-1234",
       year: "2024",
+      citations: "4",
+      citationSource: "OpenAlex citations",
       links: [
-        { label: "Interests", url: "#research-interests" }
+        { label: "DOI", url: "https://doi.org/10.1049/cvi2.12317" },
+        { label: "DBLP", url: "https://dblp.org/rec/journals/iet-cvi/WuLXX24.html" },
+        { label: "Scholar", url: "https://scholar.google.com/citations?user=1GXPr6kAAAAJ&hl=zh-CN" }
+      ]
+    },
+    {
+      authors: "Hongning Liu, Pengming Feng, Mingjie Xie, Dongli Xu, Jian Guan, Guangjun He, and Rubo Zhang",
+      title: "FPN with GMM Based Feature Enhancement Strategy for Object Detection in Remote Sensing Images",
+      venue: "ICASSP 2024",
+      year: "2024",
+      citations: "3",
+      citationSource: "OpenAlex citations",
+      links: [
+        { label: "DOI", url: "https://doi.org/10.1109/ICASSP48485.2024.10448501" },
+        { label: "DBLP", url: "https://dblp.org/rec/conf/icassp/LiuFXXGHZ24.html" },
+        { label: "Scholar", url: "https://scholar.google.com/citations?user=1GXPr6kAAAAJ&hl=zh-CN" }
+      ]
+    },
+    {
+      authors: "Pengming Feng, Mingjie Xie, Hongning Liu, Xuanjia Zhao, Guangjun He, Xueliang Zhang, and Jian Guan",
+      title: "SISP: A Benchmark Dataset for Fine-grained Ship Instance Segmentation in Panchromatic Satellite Images",
+      venue: "arXiv preprint",
+      year: "2024",
+      citations: "0",
+      citationSource: "OpenAlex citations",
+      links: [
+        { label: "arXiv", url: "https://doi.org/10.48550/arXiv.2402.03708" },
+        { label: "DBLP", url: "https://dblp.org/rec/journals/corr/abs-2402-03708.html" },
+        { label: "Scholar", url: "https://scholar.google.com/citations?user=1GXPr6kAAAAJ&hl=zh-CN" }
+      ]
+    },
+    {
+      authors: "Hongning Liu, Rubo Zhang, Mingjie Xie, Pengming Feng, Guangjun He, and Guokai Xu",
+      title: "ORS-Net: A Ship Detector for SAR Image Based on Oriented R-CNN",
+      venue: "ICCAI 2023",
+      year: "2023",
+      citations: "3",
+      citationSource: "OpenAlex citations",
+      links: [
+        { label: "DOI", url: "https://doi.org/10.1145/3594315.3594325" },
+        { label: "DBLP", url: "https://dblp.org/rec/conf/iccai/LiuZXFHX23.html" },
+        { label: "Scholar", url: "https://scholar.google.com/citations?user=1GXPr6kAAAAJ&hl=zh-CN" }
       ]
     }
   ],
