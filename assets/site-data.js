@@ -2,7 +2,7 @@ window.AcademicBlogData = {
   news: [
     {
       date: "2026-08-01",
-      text: "Publications 已按 ResearchGate 主页整理为 6 篇论文，并补充 DOI、arXiv、DBLP 与 Scholar 链接。",
+      text: "Publications 已按 ResearchGate research 页面更新为 10 篇论文，并补充 DOI、arXiv、DBLP 与 Scholar 链接。",
       link: "#publications"
     },
     {
@@ -52,6 +52,61 @@ window.AcademicBlogData = {
   ],
   publications: [
     {
+      authors: "Hongning Liu, Xianchao Zhang, Hui Sun, Linlin Zong, Wenxin Liang, and Xinyue Liu",
+      title: "Graph-Based Rotation-Robust Semantic Modeling for Oriented Object Detection in Remote Sensing Images",
+      venue: "Conference Paper, ICMR 2026",
+      year: "2026",
+      links: [
+        { label: "DOI", url: "https://doi.org/10.1145/3805622.3810758" },
+        { label: "DBLP", url: "https://dblp.org/rec/conf/mir/LiuZSZLL26.html" },
+        { label: "ResearchGate", url: "https://www.researchgate.net/profile/Hongning-Liu/research" },
+        { label: "Scholar", url: "https://scholar.google.com/citations?user=1GXPr6kAAAAJ&hl=zh-CN" }
+      ]
+    },
+    {
+      authors: "Xianchao Zhang, Hongning Liu, Hui Sun, et al.",
+      title: "Mamba-Based Encoder-Decoder for Multi-Scale Feature Fusion in Remote Sensing Object Detection",
+      venue: "Conference Paper",
+      year: "2026",
+      links: [
+        { label: "ResearchGate", url: "https://www.researchgate.net/publication/404388419_Mamba-Based_Encoder-Decoder_for_Multi-Scale_Feature_Fusion_in_Remote_Sensing_Object_Detection" },
+        { label: "Scholar", url: "https://scholar.google.com/citations?user=1GXPr6kAAAAJ&hl=zh-CN" }
+      ]
+    },
+    {
+      authors: "Guanglu Wang, Xinyue Liu, Wentao Yang, et al.",
+      title: "Online Continual Category Learning with Invariant Prototypes",
+      venue: "Conference Paper",
+      year: "2026",
+      links: [
+        { label: "ResearchGate", url: "https://www.researchgate.net/profile/Hongning-Liu/research" },
+        { label: "Scholar", url: "https://scholar.google.com/citations?user=1GXPr6kAAAAJ&hl=zh-CN" }
+      ]
+    },
+    {
+      authors: "Xinyue Liu, Hongning Liu, Mingjie Xie, and Jian Guan",
+      title: "Frequency-Phase Aware Mamba Fusion for Multiscale Spatial Representation in Remote Sensing Image Interpretation",
+      venue: "IEEE Transactions on Geoscience and Remote Sensing, 64:5627518",
+      year: "2026",
+      links: [
+        { label: "DOI", url: "https://doi.org/10.1109/TGRS.2026.3702641" },
+        { label: "ResearchGate", url: "https://www.researchgate.net/publication/406971509_Frequency-Phase_Aware_Mamba_Fusion_for_Multi-scale_Spatial_Representation_in_Remote_Sensing_Image_Interpretation" },
+        { label: "Scholar", url: "https://scholar.google.com/citations?user=1GXPr6kAAAAJ&hl=zh-CN" }
+      ]
+    },
+    {
+      authors: "Qibing Ma, Hongning Liu, Yifan Jin, and Xinyue Liu",
+      title: "Multi-Scale Context Enhancement Network with Local-Global Synergy Modeling Strategy for Semantic Segmentation on Remote Sensing Images",
+      venue: "Electronics, 14(13):2526",
+      year: "2025",
+      links: [
+        { label: "DOI", url: "https://doi.org/10.3390/electronics14132526" },
+        { label: "Publisher", url: "https://www.mdpi.com/2079-9292/14/13/2526" },
+        { label: "ResearchGate", url: "https://www.researchgate.net/profile/Hongning-Liu/research" },
+        { label: "Scholar", url: "https://scholar.google.com/citations?user=1GXPr6kAAAAJ&hl=zh-CN" }
+      ]
+    },
+    {
       authors: "Haiyan Lan, Shujun Li, Mingjie Xie, Xuanjia Zhao, Hongning Liu, Pengming Feng, Dongli Xu, Guangjun He, and Jian Guan",
       title: "Band Prompting Aided SAR and Multi-Spectral Data Fusion Framework for Local Climate Zone Classification",
       venue: "ICASSP 2025, Conference Paper",
@@ -59,18 +114,6 @@ window.AcademicBlogData = {
       links: [
         { label: "DOI", url: "https://doi.org/10.1109/ICASSP49660.2025.10889549" },
         { label: "DBLP", url: "https://dblp.org/rec/conf/icassp/LanLXZLFXH025.html" },
-        { label: "ResearchGate", url: "https://www.researchgate.net/profile/Hongning-Liu" },
-        { label: "Scholar", url: "https://scholar.google.com/citations?user=1GXPr6kAAAAJ&hl=zh-CN" }
-      ]
-    },
-    {
-      authors: "Haiyan Lan, Shujun Li, Mingjie Xie, Xuanjia Zhao, Hongning Liu, Pengming Feng, Dongli Xu, Guangjun He, and Jian Guan",
-      title: "Band Prompting Aided SAR and Multi-Spectral Data Fusion Framework for Local Climate Zone Classification",
-      venue: "arXiv preprint",
-      year: "2024",
-      links: [
-        { label: "arXiv", url: "https://doi.org/10.48550/arXiv.2412.18235" },
-        { label: "DBLP", url: "https://dblp.org/rec/journals/corr/abs-2412-18235.html" },
         { label: "ResearchGate", url: "https://www.researchgate.net/profile/Hongning-Liu" },
         { label: "Scholar", url: "https://scholar.google.com/citations?user=1GXPr6kAAAAJ&hl=zh-CN" }
       ]

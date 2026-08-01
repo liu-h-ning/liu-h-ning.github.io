@@ -160,6 +160,35 @@ img {
   text-align: center;
 }
 
+.profile-metrics {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 8px;
+  margin: 18px 0 0;
+  padding: 12px 0;
+  border-top: 1px solid var(--soft-line);
+  border-bottom: 1px solid var(--soft-line);
+}
+
+.profile-metrics div {
+  min-width: 0;
+  text-align: center;
+}
+
+.profile-metrics dt {
+  color: var(--muted);
+  font-size: 0.72rem;
+  line-height: 1.2;
+}
+
+.profile-metrics dd {
+  margin: 3px 0 0;
+  color: var(--ink);
+  font-size: 1.05rem;
+  font-weight: 700;
+  line-height: 1.15;
+}
+
 .profile-links {
   display: grid;
   gap: 7px;
