@@ -65,15 +65,11 @@
         const links = (item.links || [])
           .map((link) => `<a href="${escapeHTML(link.url)}">${escapeHTML(link.label)}</a>`)
           .join(" ");
-        const citation = item.citations !== undefined
-          ? `<span class="citation-count">${escapeHTML(item.citationSource || "Citations")}: ${escapeHTML(item.citations)}</span>`
-          : "";
         return `
           <li>
             ${escapeHTML(item.authors)}. ${escapeHTML(item.year)}.
             <strong>${escapeHTML(item.title)}.</strong>
             <em>${escapeHTML(item.venue)}.</em>
-            ${citation}
             ${links ? `<span class="paper-links">${links}</span>` : ""}
           </li>
         `;

@@ -254,13 +254,6 @@ img {
   font-weight: 700;
 }
 
-.citation-count {
-  display: inline-block;
-  margin-left: 6px;
-  color: var(--muted);
-  font-size: 0.94rem;
-}
-
 .paper-links {
   white-space: nowrap;
 }
