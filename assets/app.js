@@ -55,6 +55,7 @@
 
   function renderSimpleList(selector, items) {
     const list = document.querySelector(selector);
+    if (!list) return;
     list.innerHTML = (items || []).map((item) => `<li>${escapeHTML(item)}</li>`).join("");
   }
 
