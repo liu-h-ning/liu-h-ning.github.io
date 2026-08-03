@@ -23,32 +23,42 @@ window.AcademicBlogData = {
       period: "2024.09 - 2028.06"
     },
     {
+      organization: "PLA Dalian Naval Academy",
+      role: "Joint Ph.D. Training",
+      period: "2025.12 - 2026.12"
+    },
+    {
+      organization: "State Key Laboratory of Space Information System and Integrated Application, CAST",
+      role: "Frontier Technology Researcher; Joint Master's Training",
+      period: "2022.11 - 2024.06"
+    },
+    {
       organization: "Dalian Minzu University",
-      role: "Master Student, Electronic Information",
+      role: "Master, Electronic Information",
       period: "2021.09 - 2024.06"
     },
     {
       organization: "Harbin University of Science and Technology",
-      role: "B.Eng., Software Engineering",
+      role: "Bachelor, Software Engineering",
       period: "2017.09 - 2021.06"
     }
   ],
   interests: [
-    "Software Engineering: intelligent software systems, engineering practice, application development, and reproducible workflows.",
-    "Electronic Information: data-driven modeling, intelligent perception, and engineering-oriented research problems.",
-    "Computer Vision: object detection, visual understanding, and challenge-oriented model evaluation.",
-    "Academic Productivity: paper organization, experimental records, Google Scholar profile maintenance, and public academic writing."
+    "Remote sensing image interpretation, computer vision, object detection, and semantic segmentation.",
+    "Signal processing, machine learning, and multimodal data fusion.",
+    "Computational bioacoustics and whale call detection."
   ],
   honors: [
-    "Second-class scholarship, 2022.",
+    "Official Winning Submission, BioDCASE 2026 Challenge Task 2: Supervised Detection of Strongly-Labelled Whale Calls, official rank 1, 2026.",
     "First Prize, Object Detection Group, the 3rd International Challenge on Target Intelligence, 2023.",
     "First Prize, Visual Target / Practice Group, the 3rd International Challenge on Target Intelligence, 2023."
   ],
   activities: [
-    "Software application development project, 2020.07 - 2021.07.",
-    "Electronic information and software engineering research project, 2022.04 - 2023.04.",
+    "BioDCASE 2026 Task 2 whale call detection system: consensus-ensemble YOLO system for temporal detection of Antarctic whale calls, official rank 1.",
+    "Ongoing research in software engineering and intelligent information processing, 2022 - present.",
     "Computer vision and object detection challenge project, 2023.02 - 2023.06.",
-    "Ongoing research in software engineering and intelligent information processing, 2022 - present."
+    "Electronic information and software engineering research project, 2022.04 - 2023.04.",
+    "Software application development project, 2020.07 - 2021.07.",
   ],
   publications: [
     {
