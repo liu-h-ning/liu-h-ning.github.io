@@ -121,7 +121,7 @@ window.AcademicBlogData = {
     {
       authors: "Di Wu, Hongning Liu, Jiawei Xu, and Fei Xie",
       title: "Multi-scale feature extraction for energy-efficient object detection in remote sensing images",
-      venue: "IET Computer Vision, 18(8):1223-1234",
+      venue: "IET Computer Vision, 18(8), 1223-1234",
       year: "2024",
       links: [
         { label: "DOI", url: "https://doi.org/10.1049/cvi2.12317" },
@@ -133,7 +133,7 @@ window.AcademicBlogData = {
     {
       authors: "Hongning Liu, Pengming Feng, Mingjie Xie, Dongli Xu, Jian Guan, Guangjun He, and Rubo Zhang",
       title: "FPN with GMM Based Feature Enhancement Strategy for Object Detection in Remote Sensing Images",
-      venue: "ICASSP 2024, Conference Paper",
+      venue: "ICASSP 2024 - 2024 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP), Seoul, Korea, Republic of, pp. 3420-3424",
       year: "2024",
       links: [
         { label: "DOI", url: "https://doi.org/10.1109/ICASSP48485.2024.10448501" },
