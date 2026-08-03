@@ -54,7 +54,7 @@ window.AcademicBlogData = {
     {
       authors: "Hongning Liu, Xianchao Zhang, Hui Sun, Linlin Zong, Wenxin Liang, and Xinyue Liu",
       title: "Graph-Based Rotation-Robust Semantic Modeling for Oriented Object Detection in Remote Sensing Images",
-      venue: "Conference Paper, ICMR 2026",
+      venue: "Proceedings of the 2026 International Conference on Multimedia Retrieval (ICMR '26), ACM, New York, NY, USA, pp. 719-727",
       year: "2026",
       links: [
         { label: "DOI", url: "https://doi.org/10.1145/3805622.3810758" },
@@ -66,9 +66,10 @@ window.AcademicBlogData = {
     {
       authors: "Xianchao Zhang, Hongning Liu, Hui Sun, et al.",
       title: "Mamba-Based Encoder-Decoder for Multi-Scale Feature Fusion in Remote Sensing Object Detection",
-      venue: "Conference Paper",
+      venue: "ICASSP 2026 - 2026 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP), Barcelona, Spain, pp. 11267-11271",
       year: "2026",
       links: [
+        { label: "DOI", url: "https://doi.org/10.1109/ICASSP55912.2026.11462981" },
         { label: "ResearchGate", url: "https://www.researchgate.net/publication/404388419_Mamba-Based_Encoder-Decoder_for_Multi-Scale_Feature_Fusion_in_Remote_Sensing_Object_Detection" },
         { label: "Scholar", url: "https://scholar.google.com/citations?user=1GXPr6kAAAAJ&hl=zh-CN" }
       ]
@@ -76,9 +77,10 @@ window.AcademicBlogData = {
     {
       authors: "Guanglu Wang, Xinyue Liu, Wentao Yang, et al.",
       title: "Online Continual Category Learning with Invariant Prototypes",
-      venue: "Conference Paper",
+      venue: "ICASSP 2026 - 2026 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP), Barcelona, Spain, pp. 9077-9081",
       year: "2026",
       links: [
+        { label: "DOI", url: "https://doi.org/10.1109/ICASSP55912.2026.11462795" },
         { label: "ResearchGate", url: "https://www.researchgate.net/profile/Hongning-Liu/research" },
         { label: "Scholar", url: "https://scholar.google.com/citations?user=1GXPr6kAAAAJ&hl=zh-CN" }
       ]
@@ -86,7 +88,7 @@ window.AcademicBlogData = {
     {
       authors: "Xinyue Liu, Hongning Liu, Mingjie Xie, and Jian Guan",
       title: "Frequency-Phase Aware Mamba Fusion for Multiscale Spatial Representation in Remote Sensing Image Interpretation",
-      venue: "IEEE Transactions on Geoscience and Remote Sensing, 64:5627518",
+      venue: "IEEE Transactions on Geoscience and Remote Sensing, vol. 64, Art. no. 5627518, pp. 5627518-5627518",
       year: "2026",
       links: [
         { label: "DOI", url: "https://doi.org/10.1109/TGRS.2026.3702641" },
@@ -97,7 +99,7 @@ window.AcademicBlogData = {
     {
       authors: "Qibing Ma, Hongning Liu, Yifan Jin, and Xinyue Liu",
       title: "Multi-Scale Context Enhancement Network with Local-Global Synergy Modeling Strategy for Semantic Segmentation on Remote Sensing Images",
-      venue: "Electronics, 14(13):2526",
+      venue: "Electronics, 14(13), 2526",
       year: "2025",
       links: [
         { label: "DOI", url: "https://doi.org/10.3390/electronics14132526" },
@@ -109,7 +111,7 @@ window.AcademicBlogData = {
     {
       authors: "Haiyan Lan, Shujun Li, Mingjie Xie, Xuanjia Zhao, Hongning Liu, Pengming Feng, Dongli Xu, Guangjun He, and Jian Guan",
       title: "Band Prompting Aided SAR and Multi-Spectral Data Fusion Framework for Local Climate Zone Classification",
-      venue: "ICASSP 2025, Conference Paper",
+      venue: "ICASSP 2025 - 2025 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP), Hyderabad, India, pp. 1-5",
       year: "2025",
       links: [
         { label: "DOI", url: "https://doi.org/10.1109/ICASSP49660.2025.10889549" },
