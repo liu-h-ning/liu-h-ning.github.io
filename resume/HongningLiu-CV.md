@@ -14,9 +14,8 @@ ResearchGate: https://www.researchgate.net/profile/Hongning-Liu
 
 ## Research Interests
 
-- Remote sensing image interpretation, computer vision, object detection, and semantic segmentation.
-- Signal processing, machine learning, and multimodal data fusion.
-- Computational bioacoustics and whale call detection.
+- Remote sensing image interpretation, computer vision.
+- Signal processing.
 
 ## Education
 

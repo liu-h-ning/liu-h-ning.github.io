@@ -44,9 +44,8 @@ window.AcademicBlogData = {
     }
   ],
   interests: [
-    "Remote sensing image interpretation, computer vision, object detection, and semantic segmentation.",
-    "Signal processing, machine learning, and multimodal data fusion.",
-    "Computational bioacoustics and whale call detection."
+    "Remote sensing image interpretation, computer vision.",
+    "Signal processing."
   ],
   honors: [
     "Official Winning Submission, BioDCASE 2026 Challenge Task 2: Supervised Detection of Strongly-Labelled Whale Calls, official rank 1, 2026.",
