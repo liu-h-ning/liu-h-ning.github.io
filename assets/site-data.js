@@ -2,7 +2,7 @@ window.AcademicBlogData = {
   news: [
     {
       date: "2026-08-01",
-      text: "Publications 已按 ResearchGate research 页面更新为 10 篇论文，并补充 DOI、arXiv、DBLP 与 Scholar 链接。",
+      text: "Publications 已按 ResearchGate research 页面更新为 10 篇论文，并统一保留 DOI 链接。",
       link: "#publications"
     },
     {
@@ -68,10 +68,7 @@ window.AcademicBlogData = {
       year: "2026",
       type: "conference",
       links: [
-        { label: "DOI", url: "https://doi.org/10.1145/3805622.3810758" },
-        { label: "DBLP", url: "https://dblp.org/rec/conf/mir/LiuZSZLL26.html" },
-        { label: "ResearchGate", url: "https://www.researchgate.net/profile/Hongning-Liu/research" },
-        { label: "Scholar", url: "https://scholar.google.com/citations?user=1GXPr6kAAAAJ&hl=zh-CN" }
+        { label: "DOI", url: "https://doi.org/10.1145/3805622.3810758" }
       ]
     },
     {
@@ -81,9 +78,7 @@ window.AcademicBlogData = {
       year: "2026",
       type: "conference",
       links: [
-        { label: "DOI", url: "https://doi.org/10.1109/ICASSP55912.2026.11462981" },
-        { label: "ResearchGate", url: "https://www.researchgate.net/publication/404388419_Mamba-Based_Encoder-Decoder_for_Multi-Scale_Feature_Fusion_in_Remote_Sensing_Object_Detection" },
-        { label: "Scholar", url: "https://scholar.google.com/citations?user=1GXPr6kAAAAJ&hl=zh-CN" }
+        { label: "DOI", url: "https://doi.org/10.1109/ICASSP55912.2026.11462981" }
       ]
     },
     {
@@ -93,9 +88,7 @@ window.AcademicBlogData = {
       year: "2026",
       type: "conference",
       links: [
-        { label: "DOI", url: "https://doi.org/10.1109/ICASSP55912.2026.11462795" },
-        { label: "ResearchGate", url: "https://www.researchgate.net/profile/Hongning-Liu/research" },
-        { label: "Scholar", url: "https://scholar.google.com/citations?user=1GXPr6kAAAAJ&hl=zh-CN" }
+        { label: "DOI", url: "https://doi.org/10.1109/ICASSP55912.2026.11462795" }
       ]
     },
     {
@@ -105,9 +98,7 @@ window.AcademicBlogData = {
       year: "2026",
       type: "journal",
       links: [
-        { label: "DOI", url: "https://doi.org/10.1109/TGRS.2026.3702641" },
-        { label: "ResearchGate", url: "https://www.researchgate.net/publication/406971509_Frequency-Phase_Aware_Mamba_Fusion_for_Multi-scale_Spatial_Representation_in_Remote_Sensing_Image_Interpretation" },
-        { label: "Scholar", url: "https://scholar.google.com/citations?user=1GXPr6kAAAAJ&hl=zh-CN" }
+        { label: "DOI", url: "https://doi.org/10.1109/TGRS.2026.3702641" }
       ]
     },
     {
@@ -117,10 +108,7 @@ window.AcademicBlogData = {
       year: "2025",
       type: "journal",
       links: [
-        { label: "DOI", url: "https://doi.org/10.3390/electronics14132526" },
-        { label: "Publisher", url: "https://www.mdpi.com/2079-9292/14/13/2526" },
-        { label: "ResearchGate", url: "https://www.researchgate.net/profile/Hongning-Liu/research" },
-        { label: "Scholar", url: "https://scholar.google.com/citations?user=1GXPr6kAAAAJ&hl=zh-CN" }
+        { label: "DOI", url: "https://doi.org/10.3390/electronics14132526" }
       ]
     },
     {
@@ -130,10 +118,7 @@ window.AcademicBlogData = {
       year: "2025",
       type: "conference",
       links: [
-        { label: "DOI", url: "https://doi.org/10.1109/ICASSP49660.2025.10889549" },
-        { label: "DBLP", url: "https://dblp.org/rec/conf/icassp/LanLXZLFXH025.html" },
-        { label: "ResearchGate", url: "https://www.researchgate.net/profile/Hongning-Liu" },
-        { label: "Scholar", url: "https://scholar.google.com/citations?user=1GXPr6kAAAAJ&hl=zh-CN" }
+        { label: "DOI", url: "https://doi.org/10.1109/ICASSP49660.2025.10889549" }
       ]
     },
     {
@@ -143,10 +128,7 @@ window.AcademicBlogData = {
       year: "2024",
       type: "journal",
       links: [
-        { label: "DOI", url: "https://doi.org/10.1049/cvi2.12317" },
-        { label: "DBLP", url: "https://dblp.org/rec/journals/iet-cvi/WuLXX24.html" },
-        { label: "ResearchGate", url: "https://www.researchgate.net/profile/Hongning-Liu" },
-        { label: "Scholar", url: "https://scholar.google.com/citations?user=1GXPr6kAAAAJ&hl=zh-CN" }
+        { label: "DOI", url: "https://doi.org/10.1049/cvi2.12317" }
       ]
     },
     {
@@ -156,10 +138,7 @@ window.AcademicBlogData = {
       year: "2024",
       type: "conference",
       links: [
-        { label: "DOI", url: "https://doi.org/10.1109/ICASSP48485.2024.10448501" },
-        { label: "DBLP", url: "https://dblp.org/rec/conf/icassp/LiuFXXGHZ24.html" },
-        { label: "ResearchGate", url: "https://www.researchgate.net/profile/Hongning-Liu" },
-        { label: "Scholar", url: "https://scholar.google.com/citations?user=1GXPr6kAAAAJ&hl=zh-CN" }
+        { label: "DOI", url: "https://doi.org/10.1109/ICASSP48485.2024.10448501" }
       ]
     },
     {
@@ -169,10 +148,7 @@ window.AcademicBlogData = {
       year: "2024",
       type: "conference",
       links: [
-        { label: "arXiv", url: "https://doi.org/10.48550/arXiv.2402.03708" },
-        { label: "DBLP", url: "https://dblp.org/rec/journals/corr/abs-2402-03708.html" },
-        { label: "ResearchGate", url: "https://www.researchgate.net/profile/Hongning-Liu" },
-        { label: "Scholar", url: "https://scholar.google.com/citations?user=1GXPr6kAAAAJ&hl=zh-CN" }
+        { label: "DOI", url: "https://doi.org/10.48550/arXiv.2402.03708" }
       ]
     },
     {
@@ -182,10 +158,7 @@ window.AcademicBlogData = {
       year: "2023",
       type: "conference",
       links: [
-        { label: "DOI", url: "https://doi.org/10.1145/3594315.3594325" },
-        { label: "DBLP", url: "https://dblp.org/rec/conf/iccai/LiuZXFHX23.html" },
-        { label: "ResearchGate", url: "https://www.researchgate.net/profile/Hongning-Liu" },
-        { label: "Scholar", url: "https://scholar.google.com/citations?user=1GXPr6kAAAAJ&hl=zh-CN" }
+        { label: "DOI", url: "https://doi.org/10.1145/3594315.3594325" }
       ]
     }
   ],
