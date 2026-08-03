@@ -1,0 +1,248 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>HongningLiu - CV</title>
+    <style>
+      :root {
+        --ink: #202124;
+        --muted: #5f6368;
+        --line: #d6d9de;
+        --accent: #1d5f96;
+      }
+
+      * {
+        box-sizing: border-box;
+      }
+
+      body {
+        margin: 0;
+        color: var(--ink);
+        background: #f4f5f7;
+        font-family: Georgia, "Times New Roman", serif;
+        font-size: 13.5px;
+        line-height: 1.42;
+      }
+
+      a {
+        color: var(--accent);
+        text-decoration: none;
+      }
+
+      .page {
+        width: min(920px, calc(100% - 32px));
+        margin: 28px auto;
+        padding: 38px 46px;
+        background: #ffffff;
+        border: 1px solid var(--line);
+      }
+
+      header {
+        display: flex;
+        justify-content: space-between;
+        gap: 24px;
+        padding-bottom: 16px;
+        border-bottom: 2px solid var(--ink);
+      }
+
+      h1 {
+        margin: 0 0 4px;
+        font-size: 32px;
+        line-height: 1.05;
+        letter-spacing: 0;
+      }
+
+      .subtitle {
+        margin: 0;
+        color: var(--muted);
+        font-size: 15px;
+      }
+
+      .contact {
+        display: grid;
+        gap: 3px;
+        min-width: 260px;
+        text-align: right;
+      }
+
+      section {
+        margin-top: 18px;
+      }
+
+      h2 {
+        margin: 0 0 8px;
+        padding-bottom: 3px;
+        border-bottom: 1px solid var(--line);
+        font-size: 15px;
+        letter-spacing: 0;
+        text-transform: uppercase;
+      }
+
+      p {
+        margin: 0 0 8px;
+      }
+
+      ul,
+      ol {
+        margin: 0;
+        padding-left: 18px;
+      }
+
+      li {
+        margin: 0 0 6px;
+      }
+
+      .entry {
+        display: grid;
+        grid-template-columns: minmax(0, 1fr) auto;
+        gap: 12px;
+        margin-bottom: 7px;
+      }
+
+      .entry strong {
+        display: block;
+      }
+
+      .entry span {
+        color: var(--muted);
+        white-space: nowrap;
+      }
+
+      .publications li {
+        margin-bottom: 7px;
+      }
+
+      .note {
+        color: var(--muted);
+        font-size: 12px;
+      }
+
+      @media (max-width: 720px) {
+        .page {
+          width: 100%;
+          margin: 0;
+          padding: 24px 20px;
+          border: 0;
+        }
+
+        header,
+        .entry {
+          display: block;
+        }
+
+        .contact {
+          margin-top: 12px;
+          text-align: left;
+        }
+
+        .entry span {
+          white-space: normal;
+        }
+      }
+
+      @media print {
+        @page {
+          size: A4;
+          margin: 14mm;
+        }
+
+        body {
+          background: #ffffff;
+          font-size: 11px;
+        }
+
+        .page {
+          width: auto;
+          margin: 0;
+          padding: 0;
+          border: 0;
+        }
+
+        a {
+          color: var(--ink);
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <main class="page">
+      <header>
+        <div>
+          <h1>HongningLiu</h1>
+          <p class="subtitle">Ph.D. Student, Software Engineering<br>Dalian University of Technology, Dalian, China</p>
+        </div>
+        <address class="contact">
+          <a href="mailto:lhn873949437@163.com">lhn873949437@163.com</a>
+          <a href="https://liu-h-ning.github.io/">liu-h-ning.github.io</a>
+          <a href="https://scholar.google.com/citations?user=1GXPr6kAAAAJ&amp;hl=zh-CN">Google Scholar</a>
+          <a href="https://www.researchgate.net/profile/Hongning-Liu">ResearchGate</a>
+          <a href="https://orcid.org/0009-0009-5077-9300">ORCID</a>
+          <a href="https://github.com/liu-h-ning">GitHub</a>
+        </address>
+      </header>
+
+      <section>
+        <h2>Research Interests</h2>
+        <ul>
+          <li>Software engineering, intelligent software systems, and reproducible research workflows.</li>
+          <li>Computer vision, remote sensing image interpretation, object detection, and semantic segmentation.</li>
+          <li>Electronic information, data-driven modeling, and intelligent perception.</li>
+        </ul>
+      </section>
+
+      <section>
+        <h2>Education</h2>
+        <div class="entry">
+          <p><strong>Dalian University of Technology</strong>Ph.D. Student, Software Engineering</p>
+          <span>2024.09 - 2028.06 expected</span>
+        </div>
+        <div class="entry">
+          <p><strong>Dalian Minzu University</strong>Master's training, Electronic Information</p>
+          <span>2021.09 - 2024.06</span>
+        </div>
+        <div class="entry">
+          <p><strong>Harbin University of Science and Technology</strong>B.Eng., Software Engineering</p>
+          <span>2017.09 - 2021.06</span>
+        </div>
+      </section>
+
+      <section>
+        <h2>Publications</h2>
+        <ol class="publications">
+          <li>Hongning Liu, Xianchao Zhang, Hui Sun, Linlin Zong, Wenxin Liang, and Xinyue Liu. 2026. <strong>Graph-Based Rotation-Robust Semantic Modeling for Oriented Object Detection in Remote Sensing Images.</strong> Conference Paper, ICMR 2026. DOI: <a href="https://doi.org/10.1145/3805622.3810758">10.1145/3805622.3810758</a></li>
+          <li>Xianchao Zhang, Hongning Liu, Hui Sun, et al. 2026. <strong>Mamba-Based Encoder-Decoder for Multi-Scale Feature Fusion in Remote Sensing Object Detection.</strong> Conference Paper.</li>
+          <li>Guanglu Wang, Xinyue Liu, Wentao Yang, et al. 2026. <strong>Online Continual Category Learning with Invariant Prototypes.</strong> Conference Paper.</li>
+          <li>Xinyue Liu, Hongning Liu, Mingjie Xie, and Jian Guan. 2026. <strong>Frequency-Phase Aware Mamba Fusion for Multiscale Spatial Representation in Remote Sensing Image Interpretation.</strong> IEEE Transactions on Geoscience and Remote Sensing, 64:5627518. DOI: <a href="https://doi.org/10.1109/TGRS.2026.3702641">10.1109/TGRS.2026.3702641</a></li>
+          <li>Qibing Ma, Hongning Liu, Yifan Jin, and Xinyue Liu. 2025. <strong>Multi-Scale Context Enhancement Network with Local-Global Synergy Modeling Strategy for Semantic Segmentation on Remote Sensing Images.</strong> Electronics, 14(13):2526. DOI: <a href="https://doi.org/10.3390/electronics14132526">10.3390/electronics14132526</a></li>
+          <li>Haiyan Lan, Shujun Li, Mingjie Xie, Xuanjia Zhao, Hongning Liu, Pengming Feng, Dongli Xu, Guangjun He, and Jian Guan. 2025. <strong>Band Prompting Aided SAR and Multi-Spectral Data Fusion Framework for Local Climate Zone Classification.</strong> ICASSP 2025, Conference Paper. DOI: <a href="https://doi.org/10.1109/ICASSP49660.2025.10889549">10.1109/ICASSP49660.2025.10889549</a></li>
+          <li>Di Wu, Hongning Liu, Jiawei Xu, and Fei Xie. 2024. <strong>Multi-scale feature extraction for energy-efficient object detection in remote sensing images.</strong> IET Computer Vision, 18(8):1223-1234. DOI: <a href="https://doi.org/10.1049/cvi2.12317">10.1049/cvi2.12317</a></li>
+          <li>Hongning Liu, Pengming Feng, Mingjie Xie, Dongli Xu, Jian Guan, Guangjun He, and Rubo Zhang. 2024. <strong>FPN with GMM Based Feature Enhancement Strategy for Object Detection in Remote Sensing Images.</strong> ICASSP 2024, Conference Paper. DOI: <a href="https://doi.org/10.1109/ICASSP48485.2024.10448501">10.1109/ICASSP48485.2024.10448501</a></li>
+          <li>Pengming Feng, Mingjie Xie, Hongning Liu, Xuanjia Zhao, Guangjun He, Xueliang Zhang, and Jian Guan. 2024. <strong>SISP: A Benchmark Dataset for Fine-grained Ship Instance Segmentation in Panchromatic Satellite Images.</strong> arXiv preprint. DOI: <a href="https://doi.org/10.48550/arXiv.2402.03708">10.48550/arXiv.2402.03708</a></li>
+          <li>Hongning Liu, Rubo Zhang, Mingjie Xie, Pengming Feng, Guangjun He, and Guokai Xu. 2023. <strong>ORS-Net: A Ship Detector for SAR Image Based on Oriented R-CNN.</strong> ICCAI 2023, Conference Paper. DOI: <a href="https://doi.org/10.1145/3594315.3594325">10.1145/3594315.3594325</a></li>
+        </ol>
+      </section>
+
+      <section>
+        <h2>Honors and Awards</h2>
+        <ul>
+          <li>Second-class scholarship, 2022.</li>
+          <li>First Prize, Object Detection Group, the 3rd International Challenge on Target Intelligence, 2023.</li>
+          <li>First Prize, Visual Target / Practice Group, the 3rd International Challenge on Target Intelligence, 2023.</li>
+        </ul>
+      </section>
+
+      <section>
+        <h2>Projects and Activities</h2>
+        <ul>
+          <li>Ongoing research in software engineering and intelligent information processing, 2022 - present.</li>
+          <li>Computer vision and object detection challenge project, 2023.02 - 2023.06.</li>
+          <li>Electronic information and software engineering research project, 2022.04 - 2023.04.</li>
+          <li>Software application development project, 2020.07 - 2021.07.</li>
+        </ul>
+      </section>
+
+      <p class="note">Public CV version. Sensitive contact details should stay in local-only files under resume/private/.</p>
+    </main>
+  </body>
+</html>
