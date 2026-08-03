@@ -21,6 +21,7 @@ GitHub: https://github.com/liu-h-ning
 - Software engineering, intelligent software systems, and reproducible research workflows.
 - Computer vision, remote sensing image interpretation, object detection, and semantic segmentation.
 - Electronic information, data-driven modeling, and intelligent perception.
+- Computational bioacoustics, whale call detection, and sound event detection.
 
 ## Education
 
@@ -35,6 +36,10 @@ Master's training, Electronic Information, 2021.09 - 2024.06
 **Harbin University of Science and Technology**
 
 B.Eng., Software Engineering, 2017.09 - 2021.06
+
+## Technical Reports
+
+1. Tong Ye, Hongning Liu, Feiyang Xiao, Qiaoxi Zhu, and Jian Guan. 2026. **GISP@HEU's submission for Task 2: A consensus-ensemble YOLO system for temporal detection of Antarctic whale calls.** BioDCASE 2026 Challenge Task 2 Technical Report. Official winning submission. PDF: https://biodcase.github.io/documents/challenge2026/technical_reports/Guan_GISP_task2.technical_report.pdf
 
 ## Publications
 
@@ -51,12 +56,14 @@ B.Eng., Software Engineering, 2017.09 - 2021.06
 
 ## Honors and Awards
 
+- Official Winning Submission, BioDCASE 2026 Challenge Task 2: Supervised Detection of Strongly-Labelled Whale Calls, official rank 1, 2026.
 - Second-class scholarship, 2022.
 - First Prize, Object Detection Group, the 3rd International Challenge on Target Intelligence, 2023.
 - First Prize, Visual Target / Practice Group, the 3rd International Challenge on Target Intelligence, 2023.
 
 ## Projects and Activities
 
+- BioDCASE 2026 Task 2 whale call detection system: consensus-ensemble YOLO system for temporal detection of Antarctic whale calls, official rank 1 with macro F1-score 49.9%.
 - Ongoing research in software engineering and intelligent information processing, 2022 - present.
 - Computer vision and object detection challenge project, 2023.02 - 2023.06.
 - Electronic information and software engineering research project, 2022.04 - 2023.04.
