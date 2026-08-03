@@ -56,6 +56,7 @@ window.AcademicBlogData = {
       title: "Graph-Based Rotation-Robust Semantic Modeling for Oriented Object Detection in Remote Sensing Images",
       venue: "Proceedings of the 2026 International Conference on Multimedia Retrieval (ICMR '26), ACM, New York, NY, USA, pp. 719-727",
       year: "2026",
+      type: "conference",
       links: [
         { label: "DOI", url: "https://doi.org/10.1145/3805622.3810758" },
         { label: "DBLP", url: "https://dblp.org/rec/conf/mir/LiuZSZLL26.html" },
@@ -68,6 +69,7 @@ window.AcademicBlogData = {
       title: "Mamba-Based Encoder-Decoder for Multi-Scale Feature Fusion in Remote Sensing Object Detection",
       venue: "ICASSP 2026 - 2026 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP), Barcelona, Spain, pp. 11267-11271",
       year: "2026",
+      type: "conference",
       links: [
         { label: "DOI", url: "https://doi.org/10.1109/ICASSP55912.2026.11462981" },
         { label: "ResearchGate", url: "https://www.researchgate.net/publication/404388419_Mamba-Based_Encoder-Decoder_for_Multi-Scale_Feature_Fusion_in_Remote_Sensing_Object_Detection" },
@@ -79,6 +81,7 @@ window.AcademicBlogData = {
       title: "Online Continual Category Learning with Invariant Prototypes",
       venue: "ICASSP 2026 - 2026 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP), Barcelona, Spain, pp. 9077-9081",
       year: "2026",
+      type: "conference",
       links: [
         { label: "DOI", url: "https://doi.org/10.1109/ICASSP55912.2026.11462795" },
         { label: "ResearchGate", url: "https://www.researchgate.net/profile/Hongning-Liu/research" },
@@ -90,6 +93,7 @@ window.AcademicBlogData = {
       title: "Frequency-Phase Aware Mamba Fusion for Multiscale Spatial Representation in Remote Sensing Image Interpretation",
       venue: "IEEE Transactions on Geoscience and Remote Sensing, vol. 64, Art. no. 5627518, pp. 5627518-5627518",
       year: "2026",
+      type: "journal",
       links: [
         { label: "DOI", url: "https://doi.org/10.1109/TGRS.2026.3702641" },
         { label: "ResearchGate", url: "https://www.researchgate.net/publication/406971509_Frequency-Phase_Aware_Mamba_Fusion_for_Multi-scale_Spatial_Representation_in_Remote_Sensing_Image_Interpretation" },
@@ -101,6 +105,7 @@ window.AcademicBlogData = {
       title: "Multi-Scale Context Enhancement Network with Local-Global Synergy Modeling Strategy for Semantic Segmentation on Remote Sensing Images",
       venue: "Electronics, 14(13), 2526",
       year: "2025",
+      type: "journal",
       links: [
         { label: "DOI", url: "https://doi.org/10.3390/electronics14132526" },
         { label: "Publisher", url: "https://www.mdpi.com/2079-9292/14/13/2526" },
@@ -113,6 +118,7 @@ window.AcademicBlogData = {
       title: "Band Prompting Aided SAR and Multi-Spectral Data Fusion Framework for Local Climate Zone Classification",
       venue: "ICASSP 2025 - 2025 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP), Hyderabad, India, pp. 1-5",
       year: "2025",
+      type: "conference",
       links: [
         { label: "DOI", url: "https://doi.org/10.1109/ICASSP49660.2025.10889549" },
         { label: "DBLP", url: "https://dblp.org/rec/conf/icassp/LanLXZLFXH025.html" },
@@ -125,6 +131,7 @@ window.AcademicBlogData = {
       title: "Multi-scale feature extraction for energy-efficient object detection in remote sensing images",
       venue: "IET Computer Vision, 18(8), 1223-1234",
       year: "2024",
+      type: "journal",
       links: [
         { label: "DOI", url: "https://doi.org/10.1049/cvi2.12317" },
         { label: "DBLP", url: "https://dblp.org/rec/journals/iet-cvi/WuLXX24.html" },
@@ -137,6 +144,7 @@ window.AcademicBlogData = {
       title: "FPN with GMM Based Feature Enhancement Strategy for Object Detection in Remote Sensing Images",
       venue: "ICASSP 2024 - 2024 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP), Seoul, Korea, Republic of, pp. 3420-3424",
       year: "2024",
+      type: "conference",
       links: [
         { label: "DOI", url: "https://doi.org/10.1109/ICASSP48485.2024.10448501" },
         { label: "DBLP", url: "https://dblp.org/rec/conf/icassp/LiuFXXGHZ24.html" },
@@ -149,6 +157,7 @@ window.AcademicBlogData = {
       title: "SISP: A Benchmark Dataset for Fine-grained Ship Instance Segmentation in Panchromatic Satellite Images",
       venue: "arXiv preprint",
       year: "2024",
+      type: "conference",
       links: [
         { label: "arXiv", url: "https://doi.org/10.48550/arXiv.2402.03708" },
         { label: "DBLP", url: "https://dblp.org/rec/journals/corr/abs-2402-03708.html" },
@@ -161,6 +170,7 @@ window.AcademicBlogData = {
       title: "ORS-Net: A Ship Detector for SAR Image Based on Oriented R-CNN",
       venue: "ICCAI 2023, Conference Paper",
       year: "2023",
+      type: "conference",
       links: [
         { label: "DOI", url: "https://doi.org/10.1145/3594315.3594325" },
         { label: "DBLP", url: "https://dblp.org/rec/conf/iccai/LiuZXFHX23.html" },
