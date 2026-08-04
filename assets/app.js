@@ -1,10 +1,5 @@
 (function () {
   const data = window.AcademicBlogData || {};
-  const allCategory = "全部";
-  const state = {
-    category: allCategory,
-    query: ""
-  };
 
   const escapeHTML = (value) =>
     String(value)
@@ -23,8 +18,6 @@
     });
   };
 
-  const renderTag = (tag) => `<span class="tag">${escapeHTML(tag)}</span>`;
-
   function renderNews() {
     const list = document.querySelector("#news-list");
     list.innerHTML = (data.news || [])
@@ -39,9 +32,9 @@
       .join("");
   }
 
-  function renderExperiences() {
-    const list = document.querySelector("#experience-list");
-    list.innerHTML = (data.experiences || [])
+  function renderEducation() {
+    const list = document.querySelector("#education-list");
+    list.innerHTML = (data.education || [])
       .map(
         (item) => `
           <li>
@@ -104,82 +97,10 @@
     container.innerHTML = [...sections, renderPublicationGroup("Other Publications", uncategorized)].join("");
   }
 
-  function getCategories() {
-    const categories = new Set((data.posts || []).map((post) => post.category));
-    return [allCategory, ...categories];
-  }
-
-  function renderFilters() {
-    const row = document.querySelector("#filter-row");
-    row.innerHTML = getCategories()
-      .map(
-        (category) => `
-          <button class="filter-button${category === state.category ? " is-active" : ""}" type="button" data-category="${escapeHTML(category)}">
-            ${escapeHTML(category)}
-          </button>
-        `
-      )
-      .join("");
-  }
-
-  function getFilteredPosts() {
-    const query = state.query.trim().toLowerCase();
-    return (data.posts || []).filter((post) => {
-      const inCategory = state.category === allCategory || post.category === state.category;
-      const searchable = [post.title, post.summary, post.category, ...post.tags].join(" ").toLowerCase();
-      return inCategory && (!query || searchable.includes(query));
-    });
-  }
-
-  function renderPosts() {
-    const list = document.querySelector("#post-list");
-    const posts = getFilteredPosts();
-
-    if (!posts.length) {
-      list.innerHTML = '<p class="empty-state">没有匹配的文章。</p>';
-      return;
-    }
-
-    list.innerHTML = posts
-      .map(
-        (post) => `
-          <article class="post-item">
-            <div class="post-meta">
-              <time datetime="${escapeHTML(post.date)}">${escapeHTML(formatDate(post.date))}</time>
-              <span>${escapeHTML(post.category)}</span>
-            </div>
-            <h3><a href="${escapeHTML(post.link)}">${escapeHTML(post.title)}</a></h3>
-            <p>${escapeHTML(post.summary)}</p>
-            <div class="tag-row">${post.tags.map(renderTag).join("")}</div>
-          </article>
-        `
-      )
-      .join("");
-  }
-
-  function bindEvents() {
-    document.querySelector("#filter-row").addEventListener("click", (event) => {
-      const button = event.target.closest("[data-category]");
-      if (!button) return;
-      state.category = button.dataset.category;
-      renderFilters();
-      renderPosts();
-    });
-
-    document.querySelector("#post-search").addEventListener("input", (event) => {
-      state.query = event.target.value;
-      renderPosts();
-    });
-  }
-
   document.querySelector("#footer-year").textContent = `© ${new Date().getFullYear()} HongningLiu`;
   renderNews();
-  renderExperiences();
+  renderEducation();
   renderSimpleList("#interest-list", data.interests);
   renderSimpleList("#honor-list", data.honors);
-  renderSimpleList("#activity-list", data.activities);
   renderPublications();
-  renderFilters();
-  renderPosts();
-  bindEvents();
 })();

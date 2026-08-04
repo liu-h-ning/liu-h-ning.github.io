@@ -2,15 +2,15 @@ window.AcademicBlogData = {
     news: [{
             date: "2024-09-01",
             text: "进入大连理工大学软件工程方向继续攻读博士学位。",
-            link: "#experiences"
+            link: "#education"
         },
         {
             date: "2024-06-01",
             text: "完成电子信息方向硕士阶段学习。",
-            link: "#experiences"
+            link: "#education"
         }
     ],
-    experiences: [{
+    education: [{
             organization: "Dalian University of Technology",
             role: "Ph.D. Student, Software Engineering",
             period: "2024.09 - 2028.06"
@@ -146,6 +146,5 @@ window.AcademicBlogData = {
                 { label: "DOI", url: "https://doi.org/10.1145/3594315.3594325" }
             ]
         }
-    ],
-    posts: []
+    ]
 };
