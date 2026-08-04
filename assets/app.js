@@ -20,6 +20,7 @@
 
   function renderNews() {
     const list = document.querySelector("#news-list");
+    if (!list) return;
     list.innerHTML = (data.news || [])
       .map((item) => {
         const text = escapeHTML(item.text);
@@ -34,6 +35,7 @@
 
   function renderEducation() {
     const list = document.querySelector("#education-list");
+    if (!list) return;
     list.innerHTML = (data.education || [])
       .map(
         (item) => `
@@ -85,6 +87,7 @@
 
   function renderPublications() {
     const container = document.querySelector("#publication-list");
+    if (!container) return;
     const publications = data.publications || [];
     const renderedTypes = new Set(publicationGroups.map((group) => group.type));
     const sections = publicationGroups.map((group) =>
@@ -97,7 +100,10 @@
     container.innerHTML = [...sections, renderPublicationGroup("Other Publications", uncategorized)].join("");
   }
 
-  document.querySelector("#footer-year").textContent = `© ${new Date().getFullYear()} HongningLiu`;
+  const footerYear = document.querySelector("#footer-year");
+  if (footerYear) {
+    footerYear.textContent = `© ${new Date().getFullYear()} HongningLiu`;
+  }
   renderNews();
   renderEducation();
   renderSimpleList("#interest-list", data.interests);
