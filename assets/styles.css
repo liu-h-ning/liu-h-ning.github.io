@@ -260,7 +260,7 @@ img {
 
 .timeline-list li {
   display: grid;
-  grid-template-columns: 150px minmax(220px, 1fr) minmax(160px, 0.7fr);
+  grid-template-columns: 150px minmax(260px, 1.35fr) minmax(140px, 0.65fr);
   gap: 18px;
   align-items: baseline;
   padding: 4px 0;
@@ -277,7 +277,7 @@ img {
 
 .education-field {
   color: var(--muted);
-  text-align: right;
+  text-align: left;
 }
 
 .publication-list {
