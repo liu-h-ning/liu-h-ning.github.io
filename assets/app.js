@@ -40,8 +40,9 @@
       .map(
         (item) => `
           <li>
-            <span class="timeline-left">${escapeHTML(item.organization)}</span>
-            <span class="timeline-right">${escapeHTML(item.role)}, ${escapeHTML(item.period)}</span>
+            <span class="education-period">${escapeHTML(item.period)}</span>
+            <span class="education-school">${escapeHTML(item.organization)}</span>
+            <span class="education-field">${escapeHTML(item.field)}</span>
           </li>
         `
       )

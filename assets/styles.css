@@ -259,18 +259,23 @@ img {
 }
 
 .timeline-list li {
-  display: flex;
-  justify-content: space-between;
-  gap: 22px;
-  padding: 3px 0;
+  display: grid;
+  grid-template-columns: 150px minmax(220px, 1fr) minmax(160px, 0.7fr);
+  gap: 18px;
+  align-items: baseline;
+  padding: 4px 0;
 }
 
-.timeline-left {
-  min-width: 180px;
+.education-period {
+  color: var(--muted);
+  white-space: nowrap;
+}
+
+.education-school {
   color: #000000;
 }
 
-.timeline-right {
+.education-field {
   color: var(--muted);
   text-align: right;
 }
@@ -556,11 +561,18 @@ img {
     display: grid;
   }
 
-  .timeline-left {
+  .timeline-list li {
+    grid-template-columns: 1fr;
+    gap: 2px;
+  }
+
+  .education-period,
+  .education-school,
+  .education-field {
     min-width: 0;
   }
 
-  .timeline-right {
+  .education-field {
     text-align: left;
   }
 

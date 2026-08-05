@@ -12,27 +12,27 @@ window.AcademicBlogData = {
     ],
     education: [{
             organization: "Dalian University of Technology",
-            role: "Ph.D. Student, Software Engineering",
+            field: "Software Engineering",
             period: "2024.09 - 2028.06"
         },
         {
             organization: "PLA Dalian Naval Academy",
-            role: "Joint Ph.D. Training",
+            field: "Joint Training",
             period: "2025.12 - 2026.12"
         },
         {
             organization: "State Key Laboratory of Space Information System and Integrated Application, CAST",
-            role: "Frontier Technology Researcher; Joint Master's Training",
+            field: "Joint Training",
             period: "2022.11 - 2024.06"
         },
         {
             organization: "Dalian Minzu University",
-            role: "Master, Electronic Information",
+            field: "Electronic Information",
             period: "2021.09 - 2024.06"
         },
         {
             organization: "Harbin University of Science and Technology",
-            role: "Bachelor, Software Engineering",
+            field: "Software Engineering",
             period: "2017.09 - 2021.06"
         }
     ],
