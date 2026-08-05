@@ -17,12 +17,12 @@ window.AcademicBlogData = {
         },
         {
             organization: "PLA Dalian Naval Academy",
-            field: "Joint Training",
+            field: "PhD Joint Training",
             period: "2025.12 - 2026.12"
         },
         {
             organization: "State Key Laboratory of Space Information System and Integrated Application, CAST",
-            field: "Joint Training",
+            field: "Master Joint Training",
             period: "2022.11 - 2024.06"
         },
         {
@@ -38,7 +38,8 @@ window.AcademicBlogData = {
     ],
     interests: [
         "Remote sensing image interpretation, computer vision.",
-        "Signal processing."
+        "Signal processing.",
+        "Graph Representation."
     ],
     honors: [
         "Official Winning Submission, BioDCASE 2026 Challenge Task 2: Supervised Detection of Strongly-Labelled Whale Calls, official rank 1, 2026.",
