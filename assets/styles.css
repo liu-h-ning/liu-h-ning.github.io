@@ -111,6 +111,15 @@ img {
   background: var(--paper);
 }
 
+.single-page-shell {
+  grid-template-columns: minmax(0, 1fr);
+  max-width: 980px;
+}
+
+.single-page-shell .content {
+  max-width: none;
+}
+
 .profile-sidebar {
   align-self: start;
   position: sticky;
